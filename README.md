@@ -55,5 +55,4 @@ regionperm is run by specifying the inputs (-A, -B, -U), the simulation options 
 
 For example, in the associated publication, regionperm was run using the following code:
 
-python regionperm.py -A PIFs.bed -B hg38_E059_H3K4me1.narrowpeak -U total_HindIII_fragments.bed -n 1000 -m length -o E059_H3K4me1_outputdir/
-
+python regionperm.py -A nc_PIF.bed -B hg38_E059_H3K4me1.narrowpeak -U total_nc_genomic_fragment.bed -n 1000 -m length -o E059_H3K4me1_outputdir/
